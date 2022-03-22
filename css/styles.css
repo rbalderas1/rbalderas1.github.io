@@ -1,0 +1,237 @@
+/*    
+File Name: styles.css
+Date: 10/21/2021
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for html */
+html {
+    background: #301f12;
+}
+
+/* Style rules for body and images */
+body {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    vertical-align: middle;
+    background-color: #fdf9f6;
+}
+
+.top_content {
+    position: relative;
+}
+
+.top_content img {
+    max-width: 100%;
+    display: block;
+}
+
+.top_content p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #d8d0c8;
+    font-size: 4em;
+    font-family: 'Old Standard TT', serif;
+}
+
+/* Style rules for navigation area */
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+nav img {
+    float: left;
+    margin: 10px 0px 0px 20px;
+    width: 10%;
+}
+
+nav ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style-type: none;
+    margin: 10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: 'Merriweather', serif;
+}
+
+nav li a {
+    display: block;
+    color: #d8d0c8;
+    padding: 1em 1em 1em 1em;
+    text-decoration: none;
+
+}
+
+nav li a:hover {
+    color: #ffffff;
+}
+
+#menu_button {
+    background: #855B31;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#menu_button:hover {
+    background: #AA743F;
+}
+
+#order_button {
+    background: #12405E;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#order_button:hover {
+    background: #1A5D89;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+main article{
+    margin: auto;
+    width: 90%
+}
+
+main p {
+    font-size: 1.125em;
+    text-align: center;
+}
+
+main h3 {
+    padding-top: 4%;
+    font-size: 2em;
+    text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px 40px;
+}
+
+.grid a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.grid a:hover {
+    color: #d8d0ce;
+}
+
+main iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-top: 2%;
+}
+
+figure img{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+/* Style rules for menu page table */
+#menu img {
+    width: 12em;
+    height: auto;
+}
+
+#menu td {
+    padding: 2em;
+}
+
+#menu p {
+    font-size: 1.3em;
+}
+
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style rules for merchandise page grid */
+.merch-grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+	padding-top: 5%;
+}
+  
+.merch-grid aside {
+	grid-column: 1 / span 2;
+	font-size: 2em;
+}
+
+.merch-grid figure {
+  max-width: 500px;
+  margin: 2% auto;
+}
+
+.merch-grid figcaption {
+  padding: 3%;
+  text-align: center;
+  font-size: 1.15em;
+}
+
+/* Style rules for hiring page form */
+
+fieldset {
+    font-size: 1.125em;
+}
+
+label {
+  display: block;
+  padding-top: 1%;
+}
+
+form #submit {
+  margin: 0 auto 0 auto;
+  display: block;
+  padding: 2%;
+  background-color: #AA743F;
+  color: #d8d0ce;
+  font-size: 1.25em;
+  border-radius: 10px;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background: #0b0704;
+    color: #d8d0ce;
+    padding: 1% 0% 1% 0%;
+}
+
+footer a {
+    color: #d8d0ce;
+    text-decoration: none;
+}
