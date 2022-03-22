@@ -1,0 +1,91 @@
+<!--
+File Name: template.html
+Date: 10/21/2021
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wildcat Restaurant: Careers</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300&family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" sizes="192x192" href="images/android-chrome-192x192.png">
+</head>
+
+<body>
+    <header>
+        <div class="top_content">
+            <img src="images/restaurant-grillworks.jpg" alt="chefs at grill">
+            <p>Work for Wildcat Restaurant!</p>
+        </div>
+        
+    </header>
+
+    <nav>
+        <a href="index.html"><img src="images/logo.png" alt="Wildcat Restaurant logo"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="about.html">About Us</a></li> 
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="hiring.html">Hiring</a></li> 
+            <li id="menu_button"><a href="menu.html">Menu</a></li> 
+            <li id="order_button"><a href="order.html">Order</a></li> 
+        </ul>
+    </nav>
+
+    <main>
+    <h2>Wildcat Restaurant has a variety of openings. Please complete the form below to indicate which position you are interested in.</h2>
+    <h2 style="text-align: left;">Among our available positions are:</h2>
+    <ul>
+        <li>Grill cook, whose responsibilities will center around preparing our guests' meals.</li>
+        <li>Baker, who will be responsible for preparing the baked goods we offer.</li>
+        <li>Waiter, who will attend to our guests' needs and keep restaurant operations running smoothly.</li>
+        <li>Janitor, who will be responsible for the cleanliness of the kitchen and dining area.</li>
+        <li>Delivery, who will transport food from the restaurant to our guests' homes when necessary.</li>
+    </ul>
+    <form><!-- Start Form -->
+      <fieldset>
+        <legend>Position Selection and Information</legend>
+        <label for="fName">First Name:</label>
+        <input type="text" name="fName" id="fName">
+
+        <label for="lName">Last  Name:</label>
+        <input type="text" name="lName" id="lName">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone">
+        
+        <label for="position">Position of interest:</label>
+        <select name="position" id="position">
+            <option value="grill cook">Grill cook</option>
+            <option value="baker">Baker</option>
+            <option value="waitor">Waiter</option>
+            <option value="janitor">Janitor</option>
+            <option value="waitor">Delivery</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Personal Statement</legend>
+        <p style="text-align: left;">Briefly describe why you are interested in this position.</p>
+
+        <textarea name="Statement" id="statement" rows="10" cols="70"></textarea>
+      </fieldset>
+
+      <input type="submit" id="submit" value="Submit" class="btn">
+    </form>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+        <p><a href="mailto:contact@wildcatrestaurant.net">contact@wildcatrestaurant.net</a></p> 
+    </footer>
+</body>
+</html>
